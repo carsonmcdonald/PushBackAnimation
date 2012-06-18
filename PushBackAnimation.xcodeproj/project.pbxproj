@@ -1,0 +1,276 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B671A914158C21DE0088D99C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B671A913158C21DE0088D99C /* UIKit.framework */; };
+		B671A916158C21DE0088D99C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B671A915158C21DE0088D99C /* Foundation.framework */; };
+		B671A918158C21DE0088D99C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B671A917158C21DE0088D99C /* CoreGraphics.framework */; };
+		B671A91E158C21DE0088D99C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B671A91C158C21DE0088D99C /* InfoPlist.strings */; };
+		B671A920158C21DE0088D99C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B671A91F158C21DE0088D99C /* main.m */; };
+		B671A924158C21DE0088D99C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B671A923158C21DE0088D99C /* AppDelegate.m */; };
+		B6AE6778158C236000362213 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6AE6777158C236000362213 /* MainViewController.m */; };
+		B6AE677A158C24FE00362213 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6AE6779158C24FE00362213 /* QuartzCore.framework */; };
+		B6C0B981158C228F008BA973 /* MainView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6C0B980158C228F008BA973 /* MainView.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B671A90F158C21DE0088D99C /* PushBackAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PushBackAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B671A913158C21DE0088D99C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B671A915158C21DE0088D99C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B671A917158C21DE0088D99C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B671A91B158C21DE0088D99C /* PushBackAnimation-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PushBackAnimation-Info.plist"; sourceTree = "<group>"; };
+		B671A91D158C21DE0088D99C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B671A91F158C21DE0088D99C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B671A921158C21DE0088D99C /* PushBackAnimation-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PushBackAnimation-Prefix.pch"; sourceTree = "<group>"; };
+		B671A922158C21DE0088D99C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B671A923158C21DE0088D99C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B6AE6776158C236000362213 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		B6AE6777158C236000362213 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		B6AE6779158C24FE00362213 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		B6C0B980158C228F008BA973 /* MainView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainView.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B671A90C158C21DE0088D99C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6AE677A158C24FE00362213 /* QuartzCore.framework in Frameworks */,
+				B671A914158C21DE0088D99C /* UIKit.framework in Frameworks */,
+				B671A916158C21DE0088D99C /* Foundation.framework in Frameworks */,
+				B671A918158C21DE0088D99C /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B671A904158C21DE0088D99C = {
+			isa = PBXGroup;
+			children = (
+				B671A919158C21DE0088D99C /* PushBackAnimation */,
+				B671A912158C21DE0088D99C /* Frameworks */,
+				B671A910158C21DE0088D99C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B671A910158C21DE0088D99C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B671A90F158C21DE0088D99C /* PushBackAnimation.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B671A912158C21DE0088D99C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B6AE6779158C24FE00362213 /* QuartzCore.framework */,
+				B671A913158C21DE0088D99C /* UIKit.framework */,
+				B671A915158C21DE0088D99C /* Foundation.framework */,
+				B671A917158C21DE0088D99C /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B671A919158C21DE0088D99C /* PushBackAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				B671A922158C21DE0088D99C /* AppDelegate.h */,
+				B671A923158C21DE0088D99C /* AppDelegate.m */,
+				B6AE6776158C236000362213 /* MainViewController.h */,
+				B6AE6777158C236000362213 /* MainViewController.m */,
+				B6C0B980158C228F008BA973 /* MainView.xib */,
+				B671A91A158C21DE0088D99C /* Supporting Files */,
+			);
+			path = PushBackAnimation;
+			sourceTree = "<group>";
+		};
+		B671A91A158C21DE0088D99C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B671A91B158C21DE0088D99C /* PushBackAnimation-Info.plist */,
+				B671A91C158C21DE0088D99C /* InfoPlist.strings */,
+				B671A91F158C21DE0088D99C /* main.m */,
+				B671A921158C21DE0088D99C /* PushBackAnimation-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B671A90E158C21DE0088D99C /* PushBackAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B671A927158C21DE0088D99C /* Build configuration list for PBXNativeTarget "PushBackAnimation" */;
+			buildPhases = (
+				B671A90B158C21DE0088D99C /* Sources */,
+				B671A90C158C21DE0088D99C /* Frameworks */,
+				B671A90D158C21DE0088D99C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PushBackAnimation;
+			productName = PushBackAnimation;
+			productReference = B671A90F158C21DE0088D99C /* PushBackAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B671A906158C21DE0088D99C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = B671A909158C21DE0088D99C /* Build configuration list for PBXProject "PushBackAnimation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B671A904158C21DE0088D99C;
+			productRefGroup = B671A910158C21DE0088D99C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B671A90E158C21DE0088D99C /* PushBackAnimation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B671A90D158C21DE0088D99C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B671A91E158C21DE0088D99C /* InfoPlist.strings in Resources */,
+				B6C0B981158C228F008BA973 /* MainView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B671A90B158C21DE0088D99C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B671A920158C21DE0088D99C /* main.m in Sources */,
+				B671A924158C21DE0088D99C /* AppDelegate.m in Sources */,
+				B6AE6778158C236000362213 /* MainViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B671A91C158C21DE0088D99C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B671A91D158C21DE0088D99C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B671A925158C21DE0088D99C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B671A926158C21DE0088D99C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B671A928158C21DE0088D99C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PushBackAnimation/PushBackAnimation-Prefix.pch";
+				INFOPLIST_FILE = "PushBackAnimation/PushBackAnimation-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B671A929158C21DE0088D99C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PushBackAnimation/PushBackAnimation-Prefix.pch";
+				INFOPLIST_FILE = "PushBackAnimation/PushBackAnimation-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B671A909158C21DE0088D99C /* Build configuration list for PBXProject "PushBackAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B671A925158C21DE0088D99C /* Debug */,
+				B671A926158C21DE0088D99C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B671A927158C21DE0088D99C /* Build configuration list for PBXNativeTarget "PushBackAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B671A928158C21DE0088D99C /* Debug */,
+				B671A929158C21DE0088D99C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B671A906158C21DE0088D99C /* Project object */;
+}
