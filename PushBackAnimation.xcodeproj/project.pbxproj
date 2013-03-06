@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B601E92616E6B6DB009A714F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B601E92516E6B6DB009A714F /* Default-568h@2x.png */; };
 		B671A914158C21DE0088D99C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B671A913158C21DE0088D99C /* UIKit.framework */; };
 		B671A916158C21DE0088D99C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B671A915158C21DE0088D99C /* Foundation.framework */; };
 		B671A918158C21DE0088D99C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B671A917158C21DE0088D99C /* CoreGraphics.framework */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B601E92516E6B6DB009A714F /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		B671A90F158C21DE0088D99C /* PushBackAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PushBackAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B671A913158C21DE0088D99C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		B671A915158C21DE0088D99C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -53,6 +55,7 @@
 		B671A904158C21DE0088D99C = {
 			isa = PBXGroup;
 			children = (
+				B601E92516E6B6DB009A714F /* Default-568h@2x.png */,
 				B671A919158C21DE0088D99C /* PushBackAnimation */,
 				B671A912158C21DE0088D99C /* Frameworks */,
 				B671A910158C21DE0088D99C /* Products */,
@@ -128,7 +131,7 @@
 		B671A906158C21DE0088D99C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0430;
+				LastUpgradeCheck = 0460;
 			};
 			buildConfigurationList = B671A909158C21DE0088D99C /* Build configuration list for PBXProject "PushBackAnimation" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -154,6 +157,7 @@
 			files = (
 				B671A91E158C21DE0088D99C /* InfoPlist.strings in Resources */,
 				B6C0B981158C228F008BA973 /* MainView.xib in Resources */,
+				B601E92616E6B6DB009A714F /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -189,6 +193,10 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -213,6 +221,10 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
