@@ -81,6 +81,7 @@
         layer.zPosition = -4000;
         CATransform3D rotationAndPerspectiveTransform = CATransform3DIdentity;
         rotationAndPerspectiveTransform.m34 = 1.0 / 300;
+        layer.shadowOpacity = 0.01;
         layer.transform = CATransform3DRotate(rotationAndPerspectiveTransform, -10.0f * M_PI / 180.0f, 1.0f, 0.0f, 0.0f);
         
         primaryShadeView.alpha = 0.35;
